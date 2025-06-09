@@ -33,7 +33,7 @@ MyClip allows you to save links, text, and images directly from any webpage.
 **2)** Right-click on the element you want to save:
  *To save the current page's URL: Right-click anywhere on the page where there isn't a specific element (or use the "Save Current Page URL" button in the popup).
 
- *To save a specific link: Right-click directly on the link.
+ * To save a specific link: Right-click directly on the link.
 
  *To save selected text: Highlight the text you want to save with your mouse, then right-click on the selected text.
 
