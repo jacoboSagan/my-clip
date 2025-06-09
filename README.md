@@ -1,6 +1,12 @@
 # my-clip
 MyClip is a simple and efficient Chromium-based browser extension designed to quickly save and manage links, text, and images from any web page.
 
+# UI Design Showcase
+
+![Screenshot 1 - MyClip Dark Interface](images/image1.png)
+![Screenshot 2 - MyClip Chromium Compatibility](images/image2.png)
+![Screenshot 2 - Your saved content, organized by type.](images/image2.png)
+
 # Installation
 **1) Download the repository**: Clone or download the *.zip* file of this repository.
 
