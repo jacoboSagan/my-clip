@@ -3,6 +3,7 @@ A simple and efficient browser extension to quickly save and manage links, texts
 
 # Installation
 **1) Download the repository**: Clone or download the *.zip* file of this repository.
+
 **2) Unzip the file**: If you downloaded a *.zip* file, extract it to an easily accessible folder.
 **3) Open your browser's extensions page**:
 MyClip is developed using Chromium-based browser APIs. While it is primarily tested and designed for browsers like Google Chrome, Microsoft Edge, Brave, Opera, and Vivaldi, it may not function correctly on other browser types.
