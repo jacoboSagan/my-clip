@@ -24,3 +24,5 @@ Vivaldi: Go to *vivaldi://extensions*
 **5) Load the unpacked extension**: Click on "Load unpacked" (or the equivalent option in your browser's language) and select the folder where you unzipped the MyClip files.
 
 **6) Pin the extension**: For quick access, click on the "puzzle piece" icon (Extensions) in your browser's toolbar and "pin" the MyClip icon.
+
+# How to use MyClip
