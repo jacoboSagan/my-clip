@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyClip</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>MyClip</h1>
+
+  <button id="saveCurrentPageButton">Save Current Page URL</button>
+
+  <div class="tabs-container">
+    <div class="tabs-nav">
+      <button class="tab-button active" data-tab="links">Links</button>
+      <button class="tab-button" data-tab="text">Text</button>
+      <button class="tab-button" data-tab="images">Images</button>
+    </div>
+
+    <div id="tab-content-links" class="tab-content active">
+      <h2>Saved Links:</h2>
+      <ul id="savedLinksList" class="saved-items-list">
+        </ul>
+    </div>
+
+    <div id="tab-content-text" class="tab-content">
+      <h2>Saved Text:</h2>
+      <ul id="savedTextList" class="saved-items-list">
+        </ul>
+    </div>
+
+    <div id="tab-content-images" class="tab-content">
+      <h2>Saved Images (URLs):</h2>
+      <ul id="savedImagesList" class="saved-items-list">
+        </ul>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
