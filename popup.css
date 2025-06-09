@@ -1,0 +1,197 @@
+body {
+  width: 280px;
+  min-height: 150px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 15px;
+  background-color: #080c11;
+  color: #f0f0f0;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #406490;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button#saveCurrentPageButton {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  background-color: #483577;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#saveCurrentPageButton:hover {
+  background-color: #36285a;
+}
+
+.saved-items-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.saved-items-list li {
+  background-color: #080c11;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.saved-items-list li:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06);
+}
+
+.saved-items-list li span {
+  flex-grow: 1;
+  margin-right: 10px;
+  word-break: break-word;
+  color: #f0f0f0;
+}
+
+.saved-items-list li span a {
+  color: #64b5f6;
+  text-decoration: none;
+}
+
+.saved-items-list li span a:hover {
+  text-decoration: underline;
+}
+
+.saved-items-list li strong {
+  color: #ccc;
+}
+
+.saved-items-list li img {
+  border-radius: 3px;
+  border: 1px solid #666;
+  margin-right: 5px;
+}
+
+.tabs-container {
+  margin-top: 20px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #1c2b3e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.tabs-nav {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #444;
+  background-color: #141f2c;
+}
+
+.tab-button {
+  flex-grow: 1;
+  padding: 12px 0;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ccc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.tab-button:hover {
+  background-color: #1c2b3e;
+  color: #eee;
+}
+
+.tab-button.active {
+  color: #eee;
+  border-bottom: 3px solid #eee;
+  background-color: #1c2b3e;
+}
+
+.tab-content {
+  padding: 0 15px 15px 15px;
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.item-buttons {
+  display: flex;
+  gap: 5px;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.copy-btn {
+  background-color: #6c757d;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  transition: background-color 0.3s ease;
+  width: 24px;
+  height: 24px;
+}
+
+.copy-btn svg {
+  fill: white;
+  width: 14px;
+  height: 14px;
+}
+
+.copy-btn:hover {
+  background-color: #5a6268;
+}
+
+.copy-btn.copied {
+  background-color: #28a745;
+}
+
+.copy-btn.copied svg {
+  fill: white;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
